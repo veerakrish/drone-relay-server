@@ -1,0 +1,16 @@
+{
+  "name": "remote-control-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay for remote control between two phones",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
